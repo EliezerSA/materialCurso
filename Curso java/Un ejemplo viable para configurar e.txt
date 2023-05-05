@@ -1,0 +1,47 @@
+Un ejemplo viable para configurar el servicio en tu aplicación Android para recibir alertas del servidor es utilizando Firebase Cloud Messaging (FCM).
+
+Para ello, sigue estos pasos:
+
+Crea un proyecto en la consola de Firebase y agrega tu aplicación Android a ese proyecto.
+
+Agrega la dependencia de Firebase Cloud Messaging en el archivo build.gradle de tu proyecto:
+
+
+dependencies {
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+}
+
+
+Crea un servicio en tu aplicación Android que extienda FirebaseMessagingService. Este servicio se encargará de recibir las notificaciones desde FCM y procesarlas. Puedes agregar este servicio en tu archivo AndroidManifest.xml:
+
+<service android:name=".MyFirebaseMessagingService">
+    <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+    </intent-filter>
+</service>
+
+
+Implementa el método onMessageReceived() en tu servicio para procesar las notificaciones recibidas. Por ejemplo, puedes mostrar una notificación en el dispositivo cuando se recibe una notificación del servidor:
+
+public class MyFirebaseMessagingService extends FirebaseMessagingService {
+    @Override
+    public void onMessageReceived(RemoteMessage remoteMessage) {
+        super.onMessageReceived(remoteMessage);
+
+        // Obtener el mensaje enviado desde el servidor
+        String message = remoteMessage.getNotification().getBody();
+
+        // Mostrar la notificación en el dispositivo
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "channel_id")
+                .setContentTitle("Título de la notificación")
+                .setContentText(message)
+                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .setAutoCancel(true);
+
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+        notificationManager.notify(0, builder.build());
+    }
+}
+
+
+aplicación Android estará lista para recibir notificaciones desde el servidor mediante Firebase Cloud Messaging.

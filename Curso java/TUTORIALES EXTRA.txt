@@ -1,0 +1,47 @@
+Tutorial Conocer las Notificaciones
+https://www.youtube.com/watch?v=zmiDl4aK7mo
+
+Tutotrial como crear un notificacion android y al dar clic enviar un nuevo activity
+https://www.youtube.com/watch?v=eQcJoyac_9A
+
+PUSH Notifications
+https://www.youtube.com/watch?v=kZJhB7LlcOU
+
+
+SENDING NOTIFICATIONS TROUGH APP USING API ANDROID
+https://www.youtube.com/watch?v=gn5XfDHuQcY
+
+SEND ANDROID PUSH NOTIFICATIONS USING FIREBASE CLUD MESSAGING
+https://www.youtube.com/watch?v=M7z2MFoI6MQ
+
+
+SENDING NOTIFICATIONS THROUGH API RETROFIT FCM ANDROID STUDIO
+https://www.youtube.com/watch?v=UCGyQlANl34  PART 1
+ PART 2
+
+send notifications using FCM Rest Api
+https://www.youtube.com/watch?v=aBeNh2-lVo8
+
+
+como enviar una notificacion a android usando spring mvc
+https://www.youtube.com/watch?v=xcN5DB-LX3M
+
+OTRO VIDEO DE COMO ENVIAR UNA NOTIFICACION PUSH DE DEVICE A DEVICE
+https://www.youtube.com/watch?v=e9llz2TXBz8
+
+ENVIO DE NOTIFICACION PUSH DESDE SERVIDOR MVC
+https://es.stackoverflow.com/questions/350466/notificaciones-push-en-android
+
+
+Implemantar Notificaciones Push a Android usando un Servidor Backen PHP
+https://github.com/unsimpledev/ProyectoNotificaciones
+https://www.youtube.com/watch?v=fiUkA2OZQjs
+
+
+notificaciones sin servidor con one signal
+https://github.com/unsimpledev/NotificacionesOneSignal
+https://onesignal.com/
+
+
+UNO MAS CON ONE SIGNAL
+https://www.youtube.com/watch?v=c0bkqJdf4YU

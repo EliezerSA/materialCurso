@@ -1,0 +1,45 @@
+Practica 1: 
+
+1. De acuerdo a un elemento de tipo linear layout: Definir el elemento o elementos que hagan falta para un buen diseño en vertical
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end|center_vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boton"/>
+
+
+</LinearLayout>
+
+2. Crear un  constraintLayout y contruir dentro del mismo un boton que este centrado en todos los sentidos
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+    
+    
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+Tiempo: 30 minutos

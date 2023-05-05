@@ -1,0 +1,12 @@
+Practica 2: Diseñar un modelo de tarjeta Personalizada
+
+Usar los elementos vistos en la seccion  y crear una tarjeta personalizada , para ello hay que usar al menos como contenedor Un Material CardView y añadir al menos 3 elementos
+
+No es necesario usar recursos como Strings, dimensiones y demas. Pero es opcional.
+
+Opcional
+Añadir un floating action button con un app bar bottom que llevara un icono de menu y un icono de buscar
+
+
+
+Tiempo: 35 minutos
